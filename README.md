@@ -41,3 +41,22 @@ Cross Class Precision Smashed (0.866): Standard boxes misclassify natural ground
 Square Class Recall Restored (0.704): Environmental dust cover obscures sharp corners, breaking traditional edge bounding box anchors. The keypoint regression layers naturally compute the center of mass relative to all remaining visible surface pixels, successfully locating hidden or faded squares.
 
 L-Shape Bias Neutralized: Forcing direct point coordinates penalized lazy box guesses, successfully cutting false alarms for the dominant class in half (Precision: 0.804).
+
+
+---
+
+## 🖼️ Visual Prediction Samples
+
+Below are sample inference outputs generated on the stratified validation dataset using the production-ready `YOLOv8n-Pose` keypoint model.
+
+
+![Sample 2](outputs/sample_predictions/sample_prediction_1.jpg)
+![Sample 3](outputs/sample_predictions/sample_prediction_2.jpg)
+![Sample 4](outputs/sample_predictions/sample_prediction_3.jpg)
+![Sample 5](outputs/sample_predictions/sample_prediction_4.jpg)
+![Sample 6](outputs/sample_predictions/sample_prediction_5.jpg)
+![Sample 7](outputs/sample_predictions/sample_prediction_6.jpg)
+
+
+Author:
+Vipparthi Satya Vivek
